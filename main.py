@@ -1,5 +1,11 @@
 import json
 import sqlite3
+import logging
+import sys
+
+# Initialisation du logging
+logging.basicConfig(filename='activity.log', level=logging.INFO, format='%(asctime)s - %(message)s')
+
 
 # Ouverture de la base de données
 conn = sqlite3.connect('avionics.db')
@@ -8,8 +14,12 @@ conn = sqlite3.connect('avionics.db')
 cur = conn.cursor()
 
 # Lecture et stockage des données brutees
-with open('data.json', 'r') as f:
-    data_brute = json.load(f)
+try : 
+    with open('data.json', 'r') as f:
+        data_brute = json.load(f)
+except FileNotFoundError:
+    logging.error("Critical error : data.json not found")
+    sys.exit()
 
 # Ajout des données dans notre base de données
 for elt in data_brute:
