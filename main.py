@@ -3,6 +3,8 @@ import sqlite3
 import logging
 import sys
 
+data = 'massive_date.json'
+
 # Logging initialization
 logging.basicConfig(filename='activity.log', level=logging.INFO, format='%(asctime)s - %(message)s')
 
@@ -14,10 +16,10 @@ cur = conn.cursor()
 
 # Reading and stocking raw data
 try : 
-    with open('massive_data.json', 'r') as f:
+    with open(data, 'r') as f:
         data_brute = json.load(f)
 except FileNotFoundError:
-    logging.error("Critical error : data.json not found")
+    logging.error(f"Critical error : {data} not found")
     sys.exit()
 
 # Adding the data in our database
