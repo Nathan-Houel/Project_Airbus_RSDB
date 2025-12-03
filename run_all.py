@@ -54,4 +54,8 @@ if user == "y":
 
 # ---- Visualizing ----
 
-subprocess.run(["streamlit", "run", "dashboard.py"])
+# Launch the dashboard and sent a goodbye msg after Ctrl + C
+try :
+    subprocess.run(["streamlit", "run", "dashboard.py"])
+except KeyboardInterrupt:
+    print("Dashboard stop ! See you soon ;)")

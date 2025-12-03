@@ -1,407 +1,407 @@
 [
     {
-        "system": "Attitude and Orbit Control",
-        "name": "Tracker_0",
+        "system": "Power",
+        "name": "Computer_0",
         "limits": {
-            "type": "Voltage",
-            "min": -36,
-            "max": 67
+            "type": "Temperature",
+            "min": -93,
+            "max": 61
         }
     },
     {
-        "system": "Attitude and Orbit Control",
-        "name": "Sensor_1",
+        "system": "Thermal",
+        "name": "Tracker_1",
         "limits": {
             "type": "Power",
-            "min": -73,
-            "max": 138
+            "min": -35,
+            "max": 204
         }
     },
     {
-        "system": "Attitude and Orbit Control",
-        "name": "Valve_2",
+        "system": "Propulsion",
+        "name": "Sensor_2",
         "limits": {
-            "type": "Voltage",
-            "min": -41,
-            "max": 128
+            "type": "Energy",
+            "min": -51,
+            "max": 103
+        }
+    },
+    {
+        "system": "Propulsion",
+        "name": "Battery_3",
+        "limits": {
+            "type": "Energy",
+            "min": -44,
+            "max": 166
         }
     },
     {
         "system": "Communication",
-        "name": "Battery_3",
+        "name": "Valve_4",
         "limits": {
             "type": "Energy",
-            "min": -68,
-            "max": 63
-        }
-    },
-    {
-        "system": "Power",
-        "name": "Computer_4",
-        "limits": {
-            "type": "Pressure",
-            "min": -83,
-            "max": 112
+            "min": -86,
+            "max": 128
         }
     },
     {
         "system": "Thermal",
         "name": "Battery_5",
         "limits": {
-            "type": "Power",
-            "min": -38,
-            "max": 72
+            "type": "Pressure",
+            "min": -49,
+            "max": 217
         }
     },
     {
         "system": "Attitude and Orbit Control",
-        "name": "Sensor_6",
-        "limits": {
-            "type": "Temperature",
-            "min": -57,
-            "max": 162
-        }
-    },
-    {
-        "system": "Attitude and Orbit Control",
-        "name": "Battery_7",
+        "name": "Computer_6",
         "limits": {
             "type": "Pressure",
-            "min": -74,
-            "max": 169
-        }
-    },
-    {
-        "system": "Attitude and Orbit Control",
-        "name": "Battery_8",
-        "limits": {
-            "type": "Power",
-            "min": -41,
-            "max": 59
-        }
-    },
-    {
-        "system": "Communication",
-        "name": "Computer_9",
-        "limits": {
-            "type": "Power",
-            "min": -55,
-            "max": 227
-        }
-    },
-    {
-        "system": "Communication",
-        "name": "Valve_10",
-        "limits": {
-            "type": "Voltage",
-            "min": -70,
-            "max": 147
-        }
-    },
-    {
-        "system": "Power",
-        "name": "Sensor_11",
-        "limits": {
-            "type": "Voltage",
             "min": -61,
-            "max": 55
-        }
-    },
-    {
-        "system": "Communication",
-        "name": "Sensor_12",
-        "limits": {
-            "type": "Energy",
-            "min": -85,
-            "max": 241
-        }
-    },
-    {
-        "system": "Communication",
-        "name": "Valve_13",
-        "limits": {
-            "type": "Energy",
-            "min": -45,
-            "max": 93
+            "max": 142
         }
     },
     {
         "system": "Propulsion",
-        "name": "Computer_14",
+        "name": "Computer_7",
         "limits": {
-            "type": "Energy",
-            "min": -45,
-            "max": 116
+            "type": "Temperature",
+            "min": -98,
+            "max": 164
+        }
+    },
+    {
+        "system": "Propulsion",
+        "name": "Tracker_8",
+        "limits": {
+            "type": "Power",
+            "min": -43,
+            "max": 94
         }
     },
     {
         "system": "Power",
-        "name": "Valve_15",
+        "name": "Valve_9",
         "limits": {
-            "type": "Temperature",
-            "min": -96,
-            "max": 188
+            "type": "Power",
+            "min": -87,
+            "max": 62
         }
     },
     {
         "system": "Communication",
-        "name": "Battery_16",
+        "name": "Tracker_10",
+        "limits": {
+            "type": "Energy",
+            "min": -32,
+            "max": 139
+        }
+    },
+    {
+        "system": "Propulsion",
+        "name": "Sensor_11",
         "limits": {
             "type": "Temperature",
-            "min": -52,
-            "max": 242
+            "min": -74,
+            "max": 58
+        }
+    },
+    {
+        "system": "Attitude and Orbit Control",
+        "name": "Sensor_12",
+        "limits": {
+            "type": "Temperature",
+            "min": -51,
+            "max": 113
+        }
+    },
+    {
+        "system": "Thermal",
+        "name": "Battery_13",
+        "limits": {
+            "type": "Temperature",
+            "min": -50,
+            "max": 134
+        }
+    },
+    {
+        "system": "Communication",
+        "name": "Computer_14",
+        "limits": {
+            "type": "Power",
+            "min": -100,
+            "max": 90
+        }
+    },
+    {
+        "system": "Propulsion",
+        "name": "Valve_15",
+        "limits": {
+            "type": "Power",
+            "min": -88,
+            "max": 224
+        }
+    },
+    {
+        "system": "Power",
+        "name": "Computer_16",
+        "limits": {
+            "type": "Energy",
+            "min": -32,
+            "max": 213
         }
     },
     {
         "system": "Thermal",
         "name": "Computer_17",
         "limits": {
-            "type": "Temperature",
-            "min": -37,
-            "max": 94
-        }
-    },
-    {
-        "system": "Thermal",
-        "name": "Valve_18",
-        "limits": {
-            "type": "Power",
-            "min": -71,
-            "max": 200
-        }
-    },
-    {
-        "system": "Attitude and Orbit Control",
-        "name": "Sensor_19",
-        "limits": {
-            "type": "Temperature",
-            "min": -51,
-            "max": 245
-        }
-    },
-    {
-        "system": "Attitude and Orbit Control",
-        "name": "Valve_20",
-        "limits": {
-            "type": "Temperature",
-            "min": -59,
-            "max": 215
-        }
-    },
-    {
-        "system": "Power",
-        "name": "Valve_21",
-        "limits": {
-            "type": "Temperature",
-            "min": -36,
-            "max": 167
-        }
-    },
-    {
-        "system": "Thermal",
-        "name": "Sensor_22",
-        "limits": {
-            "type": "Power",
-            "min": -90,
-            "max": 235
-        }
-    },
-    {
-        "system": "Attitude and Orbit Control",
-        "name": "Computer_23",
-        "limits": {
-            "type": "Voltage",
-            "min": -73,
-            "max": 112
-        }
-    },
-    {
-        "system": "Thermal",
-        "name": "Sensor_24",
-        "limits": {
             "type": "Pressure",
-            "min": -58,
-            "max": 108
-        }
-    },
-    {
-        "system": "Attitude and Orbit Control",
-        "name": "Battery_25",
-        "limits": {
-            "type": "Power",
-            "min": -73,
-            "max": 120
-        }
-    },
-    {
-        "system": "Propulsion",
-        "name": "Sensor_26",
-        "limits": {
-            "type": "Power",
-            "min": -54,
-            "max": 60
-        }
-    },
-    {
-        "system": "Propulsion",
-        "name": "Valve_27",
-        "limits": {
-            "type": "Energy",
-            "min": -41,
+            "min": -84,
             "max": 180
         }
     },
     {
         "system": "Attitude and Orbit Control",
-        "name": "Valve_28",
+        "name": "Valve_18",
         "limits": {
-            "type": "Temperature",
-            "min": -67,
-            "max": 103
+            "type": "Pressure",
+            "min": -87,
+            "max": 184
         }
     },
     {
-        "system": "Communication",
-        "name": "Tracker_29",
+        "system": "Power",
+        "name": "Battery_19",
         "limits": {
             "type": "Temperature",
-            "min": -96,
-            "max": 199
+            "min": -64,
+            "max": 193
         }
     },
     {
         "system": "Thermal",
-        "name": "Valve_30",
+        "name": "Battery_20",
         "limits": {
-            "type": "Voltage",
-            "min": -80,
-            "max": 247
+            "type": "Pressure",
+            "min": -84,
+            "max": 215
+        }
+    },
+    {
+        "system": "Communication",
+        "name": "Battery_21",
+        "limits": {
+            "type": "Pressure",
+            "min": -62,
+            "max": 120
         }
     },
     {
         "system": "Propulsion",
-        "name": "Battery_31",
+        "name": "Valve_22",
         "limits": {
-            "type": "Energy",
-            "min": -59,
-            "max": 70
-        }
-    },
-    {
-        "system": "Communication",
-        "name": "Tracker_32",
-        "limits": {
-            "type": "Pressure",
-            "min": -37,
-            "max": 218
+            "type": "Voltage",
+            "min": -80,
+            "max": 133
         }
     },
     {
         "system": "Thermal",
-        "name": "Tracker_33",
+        "name": "Sensor_23",
+        "limits": {
+            "type": "Pressure",
+            "min": -82,
+            "max": 154
+        }
+    },
+    {
+        "system": "Propulsion",
+        "name": "Valve_24",
+        "limits": {
+            "type": "Voltage",
+            "min": -94,
+            "max": 86
+        }
+    },
+    {
+        "system": "Power",
+        "name": "Battery_25",
         "limits": {
             "type": "Energy",
-            "min": -58,
+            "min": -79,
+            "max": 64
+        }
+    },
+    {
+        "system": "Communication",
+        "name": "Battery_26",
+        "limits": {
+            "type": "Pressure",
+            "min": -46,
+            "max": 214
+        }
+    },
+    {
+        "system": "Propulsion",
+        "name": "Sensor_27",
+        "limits": {
+            "type": "Temperature",
+            "min": -67,
+            "max": 243
+        }
+    },
+    {
+        "system": "Attitude and Orbit Control",
+        "name": "Sensor_28",
+        "limits": {
+            "type": "Voltage",
+            "min": -95,
+            "max": 66
+        }
+    },
+    {
+        "system": "Thermal",
+        "name": "Computer_29",
+        "limits": {
+            "type": "Voltage",
+            "min": -64,
+            "max": 122
+        }
+    },
+    {
+        "system": "Attitude and Orbit Control",
+        "name": "Valve_30",
+        "limits": {
+            "type": "Voltage",
+            "min": -66,
+            "max": 154
+        }
+    },
+    {
+        "system": "Power",
+        "name": "Computer_31",
+        "limits": {
+            "type": "Voltage",
+            "min": -41,
+            "max": 181
+        }
+    },
+    {
+        "system": "Power",
+        "name": "Valve_32",
+        "limits": {
+            "type": "Power",
+            "min": -90,
+            "max": 198
+        }
+    },
+    {
+        "system": "Propulsion",
+        "name": "Tracker_33",
+        "limits": {
+            "type": "Voltage",
+            "min": -53,
+            "max": 147
+        }
+    },
+    {
+        "system": "Propulsion",
+        "name": "Tracker_34",
+        "limits": {
+            "type": "Energy",
+            "min": -53,
+            "max": 179
+        }
+    },
+    {
+        "system": "Power",
+        "name": "Battery_35",
+        "limits": {
+            "type": "Voltage",
+            "min": -72,
+            "max": 221
+        }
+    },
+    {
+        "system": "Power",
+        "name": "Valve_36",
+        "limits": {
+            "type": "Energy",
+            "min": -36,
+            "max": 95
+        }
+    },
+    {
+        "system": "Propulsion",
+        "name": "Battery_37",
+        "limits": {
+            "type": "Temperature",
+            "min": -39,
+            "max": 50
+        }
+    },
+    {
+        "system": "Power",
+        "name": "Sensor_38",
+        "limits": {
+            "type": "Temperature",
+            "min": -74,
             "max": 55
         }
     },
     {
-        "system": "Power",
-        "name": "Valve_34",
-        "limits": {
-            "type": "Energy",
-            "min": -78,
-            "max": 79
-        }
-    },
-    {
-        "system": "Attitude and Orbit Control",
-        "name": "Valve_35",
-        "limits": {
-            "type": "Temperature",
-            "min": -58,
-            "max": 145
-        }
-    },
-    {
-        "system": "Communication",
-        "name": "Valve_36",
-        "limits": {
-            "type": "Temperature",
-            "min": -71,
-            "max": 69
-        }
-    },
-    {
-        "system": "Power",
-        "name": "Battery_37",
-        "limits": {
-            "type": "Temperature",
-            "min": -99,
-            "max": 222
-        }
-    },
-    {
         "system": "Propulsion",
-        "name": "Sensor_38",
-        "limits": {
-            "type": "Power",
-            "min": -41,
-            "max": 70
-        }
-    },
-    {
-        "system": "Attitude and Orbit Control",
-        "name": "Computer_39",
-        "limits": {
-            "type": "Voltage",
-            "min": -53,
-            "max": 169
-        }
-    },
-    {
-        "system": "Power",
-        "name": "Sensor_40",
+        "name": "Valve_39",
         "limits": {
             "type": "Pressure",
             "min": -91,
-            "max": 115
+            "max": 190
+        }
+    },
+    {
+        "system": "Power",
+        "name": "Computer_40",
+        "limits": {
+            "type": "Pressure",
+            "min": -49,
+            "max": 108
+        }
+    },
+    {
+        "system": "Attitude and Orbit Control",
+        "name": "Battery_41",
+        "limits": {
+            "type": "Energy",
+            "min": -43,
+            "max": 219
+        }
+    },
+    {
+        "system": "Power",
+        "name": "Valve_42",
+        "limits": {
+            "type": "Energy",
+            "min": -87,
+            "max": 77
         }
     },
     {
         "system": "Propulsion",
-        "name": "Valve_41",
+        "name": "Tracker_43",
         "limits": {
-            "type": "Voltage",
-            "min": -81,
-            "max": 110
+            "type": "Pressure",
+            "min": -56,
+            "max": 196
         }
     },
     {
         "system": "Thermal",
-        "name": "Sensor_42",
-        "limits": {
-            "type": "Temperature",
-            "min": -74,
-            "max": 203
-        }
-    },
-    {
-        "system": "Propulsion",
-        "name": "Computer_43",
-        "limits": {
-            "type": "Energy",
-            "min": -39,
-            "max": 105
-        }
-    },
-    {
-        "system": "Attitude and Orbit Control",
         "name": "Valve_44",
         "limits": {
-            "type": "Power",
-            "min": -44,
-            "max": 95
+            "type": "Temperature",
+            "min": -47,
+            "max": 104
         }
     },
     {
@@ -409,44 +409,44 @@
         "name": "Sensor_45",
         "limits": {
             "type": "Power",
-            "min": -48,
-            "max": 85
+            "min": -100,
+            "max": 65
         }
     },
     {
-        "system": "Propulsion",
+        "system": "Power",
         "name": "Sensor_46",
         "limits": {
-            "type": "Temperature",
-            "min": -44,
-            "max": 139
+            "type": "Energy",
+            "min": -40,
+            "max": 118
         }
     },
     {
-        "system": "Communication",
-        "name": "Tracker_47",
+        "system": "Thermal",
+        "name": "Computer_47",
+        "limits": {
+            "type": "Voltage",
+            "min": -77,
+            "max": 221
+        }
+    },
+    {
+        "system": "Thermal",
+        "name": "Tracker_48",
         "limits": {
             "type": "Pressure",
-            "min": -32,
+            "min": -60,
             "max": 109
         }
     },
     {
         "system": "Attitude and Orbit Control",
-        "name": "Tracker_48",
+        "name": "Valve_49",
         "limits": {
-            "type": "Pressure",
-            "min": -100,
-            "max": 247
-        }
-    },
-    {
-        "system": "Thermal",
-        "name": "Sensor_49",
-        "limits": {
-            "type": "Temperature",
-            "min": -92,
-            "max": 151
+            "type": "Power",
+            "min": -67,
+            "max": 103
         }
     }
 ]
