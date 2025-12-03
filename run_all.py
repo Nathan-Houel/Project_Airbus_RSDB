@@ -1,6 +1,5 @@
 import subprocess
 import os
-import time
 import sqlite3
 from update_limits import update_spec
 
